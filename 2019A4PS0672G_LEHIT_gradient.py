@@ -6,4 +6,4 @@ for x in range(500):
     grad[x:1000-x,x:1000-x]=val[x]
 plt.imshow(grad)
 plt.show()
-#print(grad)
+
